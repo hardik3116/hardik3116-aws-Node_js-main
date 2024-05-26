@@ -10,7 +10,7 @@ app.get('/api/get_user_details',(req,res) => {
     res.send({
         user:{
             name:"hardik",
-            lstname: "bunny",
+            lstname: "Pansani",
             contact:12254
         }
     })
