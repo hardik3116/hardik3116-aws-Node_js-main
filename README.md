@@ -1,4 +1,5 @@
 # Deploy Nodejs project to Amazon EC2 with Github Actions
+# Auther : Hardik Pansani
 
 ## After successfully connecting github to remote server follow this commands
 
