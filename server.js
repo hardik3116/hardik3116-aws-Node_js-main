@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-require("dotenv").config()
+//require("dotenv").config()
 
 app.get('/api/get',(req,res) => {
     res.send({message:"hello Hardik Welcome to nodejs project "})
@@ -12,11 +12,11 @@ app.get('/api/get_user_details',(req,res) => {
             name:"hardik",
             lstname: "bunny",
             contact:12254
-        },env:process.env.NAME
+        }
     })
 });
 
 
-app.listen(process.env.PORT,() => {
+app.listen(8000,() => {
     console.log("listening to 8000");
 })
