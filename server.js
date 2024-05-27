@@ -10,7 +10,7 @@ app.get('/api/get_user_details',(req,res) => {
     res.send({
         user:{
             name:"hardik",
-            lstname: "Pansani",
+            lastname: "Pansani",
             contact:12254
         },env :process.env.NAME
     })
